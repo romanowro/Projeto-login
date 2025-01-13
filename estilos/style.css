@@ -3,7 +3,8 @@
 /*Paleta de cores
 
 verde #49a09d
-lilas #5f2c82
+lilas #5f2c82 
+Configuração gerais
 
 */
 
@@ -58,6 +59,11 @@ section#login>div#formulario {
     padding: 10px;
 }
 
-body {
-    background-image: url('/img/predio.jpg')
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
 }
