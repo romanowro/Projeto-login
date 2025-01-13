@@ -57,6 +57,10 @@ section#login > div#formulario{
     padding: 10px;
 }
 
+body{
+    background-image: url('/img/entrada.jpg')
+}
+
 
 
 
