@@ -19,114 +19,135 @@ Configuração gerais
 body,
 html {
 
-   
 
-    background-image:linear-gradient(to top,  #9331d5c8, #2dd4b5c0);
+
+    background-image: linear-gradient(to top, #9331d5c8, #2dd4b5c0);
     height: 100vh;
     width: 100vw;
 }
 
 main {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
+        position: relative;
+        width: 100vw;
+        height: 100vh;
 }
 
 /* Centralizando */
 section#login {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    width: 250px;
-    height: 520px;
-    border-radius: 20px;
-    overflow: hidden;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        width: 250px;
+        height: 520px;
+        border-radius: 20px;
+        overflow: hidden;
 
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.532);
-    transition: width 0.2s, height 0.2s;
-    transition-timing-function: ease;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.532);
+        transition: width 0.2s, height 0.2s;
+        transition-timing-function: ease;
 }
 
 section#login>div#imagem {
-    display: block;
-    background: #5f2c82 url('../img/predio.jpg') no-repeat;
-    height: 200px;
-    background-size: cover;
-    background-position: left bottom;
+        display: block;
+        background: #5f2c82 url('../img/predio.jpg') no-repeat;
+        height: 200px;
+        background-size: cover;
+        background-position: left bottom;
 }
 
 section#login>div#formulario {
-    display: block;
-    padding: 10px;
+        display: block;
+        padding: 10px;
 }
 
-div#formulario > h1{
-    text-align: center;
-    margin-bottom: 10px;
+div#formulario>h1 {
+        text-align: center;
+        margin-bottom: 10px;
 }
 
-div#formulario > p{
-    font-size: 0.8em;
+div#formulario>p {
+        font-size: 0.8em;
 }
 
-form > input[type=submit]{
+form>input[type=submit] {
 
-    display: block;
-    font-size: 1em;
-    width: 100%;
-    height: 40px;
-    background-color: #a658dab1;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        background-color: #a658dab1;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
 
-}
-form > input[type=submit]:hover{
-    background-color: #722fd0d9;
 
 }
 
+form>input[type=submit]:hover {
+        background-color: #722fd0d9;
 
-form > a.botao{
-
-    display: block;
-    text-align: center;
-    font-size: 1em;
-    width: 100%;
-    height: 40px;
-    background-color: #a658dab1;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-    padding:5px;
-    border: 0.5px solid rgba(214, 207, 207, 0.546);
-    color: white;
-    margin-top: 10px;
-    
 }
 
-form > a.botao:hover{
-    background-color: #9411e6d9;
+
+form>a.botao {
+
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        background-color: #a658dab1;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 5px;
+        border: 0.5px solid rgba(214, 207, 207, 0.546);
+        color: white;
+        margin-top: 10px;
+
 }
 
-form > a.botao i{
-    font-size: 0.8em;
+form>a.botao:hover {
+            background-color: #9411e6d9;
 }
 
-form div.campo{
-    background-color: #a658dab1;
-    width: 100%;
-    display: block;
-    height: 40px;
-    border-radius: 5px;
-    margin: 5px 0px;
+form>a.botao i {
+        font-size: 0.8em;
 }
 
-div.campo > label{
-    display: none;
+form div.campo {
+        background-color: #a658dab1;
+        width: 100%;
+        display: block;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+        border: 2px solid #a658dab1;
 }
 
+div.campo>label {
+        display: none;
+}
+
+div.campo>span {
+        color: white;
+
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+
+}
+
+div.campo>input {
+        background-color: #0de4ef9d;
+        font-size: 1em;
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 3px;
+        width: calc(100% - 45px);
+        transform: translateY(-12px);
+}
