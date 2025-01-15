@@ -18,7 +18,10 @@ Configuração gerais
 
 body,
 html {
-    background-color: #5f2c82;
+
+   
+
+    background-image:linear-gradient(to top,  #9331d5c8, #2dd4b5c0);
     height: 100vh;
     width: 100vw;
 }
